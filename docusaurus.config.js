@@ -32,7 +32,7 @@ const config = {
       {
         redirects: [
           {
-            to: '/poc-docusaurus-multi-repo/docs/intro',
+            to: '/docs/intro',
             from: '/',
           },
         ],
