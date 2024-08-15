@@ -17,7 +17,7 @@ const config = {
   url: 'https://cardoso-thiago.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  baseUrl: '/poc-docusaurus-multi-repo/',
 
   organizationName: 'cardoso-thiago', // Usually your GitHub org/user name.
   projectName: 'poc-docusaurus-multi-repo', // Usually your repo name.
