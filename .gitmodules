@@ -3,3 +3,7 @@
 	url = https://github.com/cardoso-thiago/demo-guide-doc.git
 	main = main
 	branch = main
+[submodule "docs/another-repo-content"]
+	path = docs/another-repo-content
+	url = https://github.com/cardoso-thiago/poc-docusaurus-multi-repo-another-repo
+	branch = main
