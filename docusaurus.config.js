@@ -6,6 +6,7 @@
 
 import {themes as prismThemes} from 'prism-react-renderer';
 import codeImport from 'remark-code-import';
+import codeTabs from 'docusaurus-remark-plugin-tab-blocks';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -53,7 +54,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          remarkPlugins: [codeImport,],
+          remarkPlugins: [codeImport,codeTabs,],
         },
         blog: false,
         theme: {
